@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #09090a;
+    background-color: #001013;
     color: white;
 
   
@@ -27,7 +27,7 @@ header {
 button {
     padding: 16px 24px;
     border-radius: 8px;
-    border: 1px solid #8B5CF6;
+    border: 1px solid #06B6D4;
     background-color: #09090a;
     color: white;
 
@@ -39,6 +39,13 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    cursor: pointer;
+    border: 1px solid #07CFF2;
+    transition: 0.3s;
 }
 
 #form-habits {
@@ -104,8 +111,8 @@ input {
 
 /*PSEUDO SELECTOR*/
 input:checked {
-    background: #8B5CF6;
-    border: 2px solid #A78BFA;
+    background: #06B6D4;
+    border: 2px solid #07CFF2;
 }
 
 @media(max-width: 570px) {
